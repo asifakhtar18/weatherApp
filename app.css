@@ -1,0 +1,159 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    padding: 5px;
+    line-height: 1px;
+}
+
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+#left{
+    background-color: #5C9CE5;
+    color :white;
+    width: 300px;
+    height: 550px;
+    margin-top: 30px;
+    translate: -250px;
+    position: absolute;
+    border-radius: 30px;
+    -webkit-box-shadow: 10px 10px 58px -19px rgba(158,147,158,1);
+    -moz-box-shadow: 10px 10px 58px -19px rgba(158,147,158,1);
+    box-shadow: 10px 10px 58px -19px rgba(158,147,158,1);
+}
+
+#right{
+    background-color: #E4F1FF;
+    position: relative;
+    translate: 100px;
+    margin-top: 30px;
+    width: 550px;
+    height: 550px;
+    border-radius: 30px;
+    -webkit-box-shadow: 10px 10px 58px -19px rgba(158,147,158,1);
+    -moz-box-shadow: 10px 10px 58px -19px rgba(158,147,158,1);
+    box-shadow: 10px 10px 58px -19px rgba(158,147,158,1);
+}
+
+#temp{
+    display: flex;
+    align-items: center;
+}
+
+#temp img{
+    padding: 0;
+    opacity: 0.5;
+}
+
+h1{
+    font-size: 60px;
+}
+
+
+#hero-image{
+    width: 170px;
+    height: 350px;
+    position: relative;
+    translate: -15px -40px;
+    border-radius: 30px;
+
+    
+}
+
+.icon{
+    padding-right: 65px;
+    width: 20px;
+    height: 20px;
+}
+
+#left-info{
+    display: flex;
+}
+
+
+
+
+#location-image{
+    width: 15px;
+    
+}
+
+#time{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    color: black;
+    font-size: medium;
+}
+
+.time{
+    width: 20px;
+    display: inline;
+    align-items: center;
+    margin: 0;
+    padding: 0%;
+}
+
+span{
+    
+    padding-left: 0%;
+    font-size: small;
+    line-height: 25px;
+}
+
+
+
+p{
+    font-size: smaller;
+    font-weight: 100;
+    padding-left: 0;
+}
+#rain{
+    margin: 20px;
+    height: 200px;
+    width: 500px;
+    font-weight: 500;
+    background-color: white;
+    border-radius: 20px;
+
+  
+
+   
+}
+
+#graph{
+    width: 450px;
+    height: 200px;
+    background-color: #5C9CE5;
+    position: relative;
+    translate: 20px -50px;
+
+    -webkit-clip-path: polygon(42% 70%, 54% 83%, 71% 80%, 84% 87%, 100% 87%, 100% 100%, 0 100%, 0 86%, 14% 85%, 29% 80%);
+    clip-path: polygon(42% 70%, 54% 83%, 71% 80%, 84% 87%, 100% 87%, 100% 100%, 0 100%, 0 86%, 14% 85%, 29% 80%);
+}
+
+
+.blocks{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px;
+    padding: 0 ;
+    font-size: smaller;
+
+}
+
+.details{
+    width: 140px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 0px;
+    padding-top: 0px;
+    
+}
